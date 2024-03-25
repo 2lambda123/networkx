@@ -1,6 +1,7 @@
 """
 Maximum flow (and minimum cut) algorithms on capacitated graphs.
 """
+
 import networkx as nx
 
 from .boykovkolmogorov import boykov_kolmogorov

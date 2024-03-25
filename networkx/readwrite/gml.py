@@ -27,6 +27,7 @@ For additional documentation on the GML file format, please see the
 Several example graphs in GML format may be found on Mark Newman's
 `Network data page <http://www-personal.umich.edu/~mejn/netdata/>`_.
 """
+
 import html.entities as htmlentitydefs
 import re
 import warnings

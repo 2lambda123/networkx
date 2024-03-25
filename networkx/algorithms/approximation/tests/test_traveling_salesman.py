@@ -1,4 +1,5 @@
 """Unit tests for the traveling_salesman module."""
+
 import random
 
 import pytest

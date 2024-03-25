@@ -1,6 +1,7 @@
 """
 Generators for the small graph atlas.
 """
+
 import gzip
 import os
 import os.path

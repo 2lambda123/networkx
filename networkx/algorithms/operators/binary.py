@@ -1,6 +1,7 @@
 """
 Operations on graphs including union, intersection, difference.
 """
+
 import networkx as nx
 
 __all__ = [

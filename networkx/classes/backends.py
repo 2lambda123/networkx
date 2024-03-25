@@ -56,6 +56,7 @@ It will be called with the list of NetworkX tests discovered. Each item
 is a test object that can be marked as xfail if the backend does not support
 the test using `item.add_marker(pytest.mark.xfail(reason=...))`.
 """
+
 import functools
 import inspect
 import os

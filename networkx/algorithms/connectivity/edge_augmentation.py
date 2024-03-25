@@ -12,6 +12,7 @@ See Also
 :mod:`edge_kcomponents` : algorithms for finding k-edge-connected components
 :mod:`connectivity` : algorithms for determining edge connectivity.
 """
+
 import itertools as it
 import math
 from collections import defaultdict, namedtuple
@@ -777,9 +778,11 @@ def unconstrained_bridge_augmentation(G):
     # Choose pairs of distinct leaf nodes in each tree. If this is not
     # possible then make a pair using the single isolated node in the tree.
     vset1 = [
-        tuple(cc) * 2  # case1: an isolated node
-        if len(cc) == 1
-        else sorted(cc, key=C.degree)[0:2]  # case2: pair of leaf nodes
+        (
+            tuple(cc) * 2  # case1: an isolated node
+            if len(cc) == 1
+            else sorted(cc, key=C.degree)[0:2]
+        )  # case2: pair of leaf nodes
         for cc in nx.connected_components(C)
     ]
     if len(vset1) > 1:

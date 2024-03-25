@@ -1,6 +1,7 @@
 """
 Graph products.
 """
+
 from itertools import product
 
 import networkx as nx

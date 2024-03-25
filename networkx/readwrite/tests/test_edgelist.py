@@ -1,6 +1,7 @@
 """
     Unit tests for edgelists.
 """
+
 import io
 import os
 import tempfile

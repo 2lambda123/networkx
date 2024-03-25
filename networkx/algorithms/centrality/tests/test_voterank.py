@@ -2,7 +2,6 @@
     Unit tests for VoteRank.
 """
 
-
 import networkx as nx
 
 

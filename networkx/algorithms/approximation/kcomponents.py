@@ -1,5 +1,6 @@
 """ Fast approximation for k-component structure
 """
+
 import itertools
 from collections import defaultdict
 from collections.abc import Mapping
