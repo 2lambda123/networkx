@@ -16,6 +16,7 @@ See Also
  - :func:`matplotlib.pyplot.scatter`
  - :obj:`matplotlib.patches.FancyArrowPatch`
 """
+
 from numbers import Number
 
 import networkx as nx

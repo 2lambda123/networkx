@@ -33,6 +33,7 @@ important in operations research and theoretical computer science.
 
 http://en.wikipedia.org/wiki/Travelling_salesman_problem
 """
+
 import math
 
 import networkx as nx

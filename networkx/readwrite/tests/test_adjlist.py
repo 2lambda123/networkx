@@ -1,6 +1,7 @@
 """
     Unit tests for adjlist.
 """
+
 import io
 import os
 import tempfile

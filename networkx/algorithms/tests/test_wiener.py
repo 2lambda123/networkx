@@ -1,6 +1,5 @@
 """Unit tests for the :mod:`networkx.algorithms.wiener` module."""
 
-
 from networkx import DiGraph, complete_graph, empty_graph, path_graph, wiener_index
 
 

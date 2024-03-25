@@ -1,4 +1,5 @@
 """One-mode (unipartite) projections of bipartite graphs."""
+
 import networkx as nx
 from networkx.exception import NetworkXAlgorithmError
 from networkx.utils import not_implemented_for

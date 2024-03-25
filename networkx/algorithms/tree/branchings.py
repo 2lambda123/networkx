@@ -7,6 +7,7 @@ This implementation is based on:
     233–240. URL: http://archive.org/details/jresv71Bn4p233
 
 """
+
 # TODO: Implement method from Gabow, Galil, Spence and Tarjan:
 #
 # @article{
@@ -932,9 +933,11 @@ class ArborescenceIterator:
         self.partition_queue.put(
             self.Partition(
                 mst_weight if self.minimum else -mst_weight,
-                {}
-                if self.init_partition is None
-                else self.init_partition.partition_dict,
+                (
+                    {}
+                    if self.init_partition is None
+                    else self.init_partition.partition_dict
+                ),
             )
         )
 

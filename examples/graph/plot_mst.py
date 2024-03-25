@@ -10,7 +10,6 @@ function is used to compare the original graph with its MST.
 
 """
 
-
 import networkx as nx
 import matplotlib.pyplot as plt
 
