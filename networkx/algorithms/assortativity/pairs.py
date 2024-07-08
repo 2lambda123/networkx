@@ -1,4 +1,5 @@
 """Generators of  x-y pairs of node data."""
+
 __all__ = ["node_attribute_xy", "node_degree_xy"]
 
 

@@ -1,5 +1,6 @@
 """Node assortativity coefficients and correlation measures.
 """
+
 from networkx.algorithms.assortativity.mixing import (
     attribute_mixing_matrix,
     degree_mixing_matrix,

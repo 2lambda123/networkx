@@ -82,6 +82,7 @@ EdgeDataView
 
     The argument `nbunch` restricts edges to those incident to nodes in nbunch.
 """
+
 from collections.abc import Mapping, Set
 
 import networkx as nx
@@ -775,10 +776,8 @@ class OutEdgeDataView:
         elif data is False:
             self._report = lambda n, nbr, dd: (n, nbr)
         else:  # data is attribute name
-            self._report = (
-                lambda n, nbr, dd: (n, nbr, dd[data])
-                if data in dd
-                else (n, nbr, default)
+            self._report = lambda n, nbr, dd: (
+                (n, nbr, dd[data]) if data in dd else (n, nbr, default)
             )
 
     def __len__(self):
@@ -928,16 +927,12 @@ class OutMultiEdgeDataView(OutEdgeDataView):
                 self._report = lambda n, nbr, k, dd: (n, nbr)
         else:  # data is attribute name
             if keys is True:
-                self._report = (
-                    lambda n, nbr, k, dd: (n, nbr, k, dd[data])
-                    if data in dd
-                    else (n, nbr, k, default)
+                self._report = lambda n, nbr, k, dd: (
+                    (n, nbr, k, dd[data]) if data in dd else (n, nbr, k, default)
                 )
             else:
-                self._report = (
-                    lambda n, nbr, k, dd: (n, nbr, dd[data])
-                    if data in dd
-                    else (n, nbr, default)
+                self._report = lambda n, nbr, k, dd: (
+                    (n, nbr, dd[data]) if data in dd else (n, nbr, default)
                 )
 
     def __len__(self):

@@ -197,7 +197,7 @@ def lukes_partitioning(G, max_size, node_weight=None, edge_weight=None):
                     part2 = t_G.nodes[i_node][PKEY][b]
                     part, value = _concatenate_or_merge(part1, part2, x_node, i_node, j)
 
-                    if j not in bp_buffer.keys() or bp_buffer[j][1] < value:
+                    if j not in bp_buffer or bp_buffer[j][1] < value:
                         # we annotate in the buffer the best partition for j
                         bp_buffer[j] = part, value
 

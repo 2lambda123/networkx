@@ -1,6 +1,7 @@
 """
 Unit tests for dedensification and graph summarization
 """
+
 import pytest
 
 import networkx as nx

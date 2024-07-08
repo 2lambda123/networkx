@@ -1,5 +1,6 @@
 """Test trophic levels, trophic differences and trophic coherence
 """
+
 import pytest
 
 np = pytest.importorskip("numpy")

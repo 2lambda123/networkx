@@ -28,6 +28,7 @@ Scientific Reports 6, 31708 (2016)
 http://doi.org/10.1038/srep31708
 
 """
+
 import networkx as nx
 from networkx.exception import NetworkXError
 from networkx.utils import not_implemented_for
