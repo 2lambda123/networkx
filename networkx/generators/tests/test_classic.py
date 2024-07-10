@@ -5,6 +5,7 @@ Generators - Classic
 
 Unit tests for various classic graph generators in generators/classic.py
 """
+
 import itertools
 import typing
 
@@ -141,7 +142,7 @@ class TestGeneratorClassic:
     def test_binomial_tree(self):
         graphs = (None, nx.Graph, nx.DiGraph, nx.MultiGraph, nx.MultiDiGraph)
         for create_using in graphs:
-            for n in range(0, 4):
+            for n in range(4):
                 b = nx.binomial_tree(n, create_using)
                 assert nx.number_of_nodes(b) == 2**n
                 assert nx.number_of_edges(b) == (2**n - 1)

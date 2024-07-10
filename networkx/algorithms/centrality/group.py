@@ -1,4 +1,5 @@
 """Group centrality measures."""
+
 from copy import deepcopy
 
 import networkx as nx

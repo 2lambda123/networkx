@@ -1,6 +1,7 @@
 """
 Pajek tests
 """
+
 import os
 import tempfile
 

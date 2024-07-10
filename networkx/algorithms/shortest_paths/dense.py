@@ -1,5 +1,6 @@
 """Floyd-Warshall algorithm for shortest paths.
 """
+
 import networkx as nx
 
 __all__ = [

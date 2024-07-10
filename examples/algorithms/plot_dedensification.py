@@ -7,6 +7,7 @@ Examples of dedensification of a graph.  Dedensification retains the structural
 pattern of the original graph and will only add compressor nodes when doing so
 would result in fewer edges in the compressed graph.
 """
+
 import matplotlib.pyplot as plt
 import networkx as nx
 

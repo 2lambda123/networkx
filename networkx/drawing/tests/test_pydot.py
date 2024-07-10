@@ -1,4 +1,5 @@
 """Unit tests for pydot drawing functions."""
+
 import os
 import tempfile
 from io import StringIO

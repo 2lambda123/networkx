@@ -1,4 +1,5 @@
 """Functions for generating trees."""
+
 from collections import defaultdict
 
 import networkx as nx

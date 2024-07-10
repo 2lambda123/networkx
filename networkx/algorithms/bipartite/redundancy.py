@@ -1,4 +1,5 @@
 """Node redundancy for bipartite graphs."""
+
 from itertools import combinations
 
 from networkx import NetworkXError
