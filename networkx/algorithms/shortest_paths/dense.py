@@ -1,5 +1,4 @@
-"""Floyd-Warshall algorithm for shortest paths.
-"""
+"""Floyd-Warshall algorithm for shortest paths."""
 
 import networkx as nx
 

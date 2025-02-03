@@ -1,5 +1,4 @@
-"""Test trophic levels, trophic differences and trophic coherence
-"""
+"""Test trophic levels, trophic differences and trophic coherence"""
 
 import pytest
 

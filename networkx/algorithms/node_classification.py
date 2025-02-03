@@ -1,4 +1,4 @@
-""" This module provides the functions for node classification problem.
+"""This module provides the functions for node classification problem.
 
 The functions in this module are not imported
 into the top level `networkx` namespace.

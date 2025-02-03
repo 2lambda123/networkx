@@ -1,5 +1,4 @@
-"""Test sequences for graphiness.
-"""
+"""Test sequences for graphiness."""
 
 import heapq
 
