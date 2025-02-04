@@ -1,6 +1,4 @@
-"""Unit tests for the :mod:`networkx.algorithms.tree.operations` module.
-
-"""
+"""Unit tests for the :mod:`networkx.algorithms.tree.operations` module."""
 
 import networkx as nx
 from networkx.utils import edges_equal, nodes_equal

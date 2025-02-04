@@ -1,5 +1,4 @@
-"""Generators for geometric graphs.
-"""
+"""Generators for geometric graphs."""
 
 import math
 from bisect import bisect_left

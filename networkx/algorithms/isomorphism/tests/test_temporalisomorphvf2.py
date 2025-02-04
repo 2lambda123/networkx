@@ -1,5 +1,5 @@
 """
-    Tests for the temporal aspect of the Temporal VF2 isomorphism algorithm.
+Tests for the temporal aspect of the Temporal VF2 isomorphism algorithm.
 """
 
 from datetime import date, datetime, timedelta

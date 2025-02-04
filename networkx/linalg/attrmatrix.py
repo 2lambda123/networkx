@@ -1,5 +1,5 @@
 """
-    Functions for constructing matrix-like objects from graph attributes.
+Functions for constructing matrix-like objects from graph attributes.
 """
 
 __all__ = ["attr_matrix", "attr_sparse_matrix"]

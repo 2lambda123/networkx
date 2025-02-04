@@ -1,4 +1,4 @@
-""" Functions related to graph covers."""
+"""Functions related to graph covers."""
 
 from networkx.algorithms.bipartite.matching import hopcroft_karp_matching
 from networkx.algorithms.covering import min_edge_cover as _min_edge_cover

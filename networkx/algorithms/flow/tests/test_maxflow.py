@@ -1,5 +1,4 @@
-"""Maximum flow algorithms test suite.
-"""
+"""Maximum flow algorithms test suite."""
 
 import pytest
 
